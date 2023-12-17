@@ -7,6 +7,4 @@ def square_matrix_simple(matrix=[]):
      The original matrix remains unchanged, and the function does not rely on any external modules
      Regular loops, map, and similar constructs are permitted for the implementation.
      """
-    new_matrix = [[elem**2 for elem in inner] for inner in matrix]
-
-    return new_matrix
+    return [[y ** 2 for y in x] for x in matrix]
