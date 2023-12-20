@@ -10,4 +10,3 @@ def safe_print_list(my_list=[], x=0):
     except Exception as e:
         print(f"Error: {e}")
         return 0
-
