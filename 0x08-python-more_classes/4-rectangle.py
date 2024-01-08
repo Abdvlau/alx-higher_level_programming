@@ -48,19 +48,19 @@ class Rectangle:
 
     def perimeter(self):
         """ returns rectangle perimiter"""
-        if self.__width == 0 or self.__height == 0:
+        if self.__width is 0 or self.__height is 0:
             return 0
         return self.__width * 2 + self.__height * 2
 
     def __str__(self):
         """ return the rectangle with the character #
         """
-        if self.__width == 0 or self.__height == 0:
+        if self.__width is 0 or self.__height is 0:
             return ""
         return ("\n".join(["".join(["#" for i in range(self.__width)])
                 for j in range(self.__height)]))
-        
+
     def __repr__(self):
         """ return a string representation of the rectangle
         """
-        return "Rectangle({}, {})".format(self.__width, self.__height)  
+        return "Rectangle({}, {})".format(self.__width, self.__height)
