@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """ A function that return"""
 
-
 def inherits_from(obj, a_class):
     """
     Write a function that returns True if the object is an instance of a class
