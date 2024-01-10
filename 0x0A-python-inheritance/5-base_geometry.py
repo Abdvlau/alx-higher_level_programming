@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-"""An epmty class BaseGeometry"""
+"""Module Base Geometry"""
+
+
 class BaseGeometry:
+    """Empty class"""
     pass
